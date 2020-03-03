@@ -9,6 +9,7 @@ public class ComplexNumbers {
 	public void setImaginary1(int imaginary1) {
 		this.imaginary1 = imaginary1;
 	}
+
 	public void setRea1(int real1) {
 		this.real1= real1;
 	}
