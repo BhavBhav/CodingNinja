@@ -15,7 +15,7 @@ public class LinkedListUse {
 			}
 			else {
 				Node<Integer> temp= head;
-				while(temp.next!= null) {
+				while(temp.next != null) {
 					temp= temp.next;
 				}
 				temp.next=newNode;
@@ -24,15 +24,14 @@ public class LinkedListUse {
 		}
 		return head;
 	}
+	
+	
 	public static void print(Node<Integer> head) {
-
-
 		Node<Integer> temp = head;
 		while(temp != null) {
 			System.out.print(temp.data+" ");
 			temp=temp.next;
 		}
-
 	}
 
 
